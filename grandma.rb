@@ -4,7 +4,7 @@ def speak_to_grandma(input)
   
   if(input.match(/^.*[A-Z]$/) == nil)
     return "HUH?! SPEAK UP, SONNY!"
-  else
+  elsif (input.match())
     return "NO, NOT SINCE 1938!"
   end
 end

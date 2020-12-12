@@ -2,8 +2,11 @@
 
 def speak_to_grandma(input)
   
-  if()
-  
+  if(input.match(/^.*\d{3}.*\d{3}.*\d{4}$/) == nil)
+    return false
+  else
+    return true
+  end
 end
 
 # Whatever you say to grandma, she should respond with

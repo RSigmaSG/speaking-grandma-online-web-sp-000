@@ -2,7 +2,7 @@
 
 def speak_to_grandma(input)
   
-  if(input.match(/^.*\d{3}.*\d{3}.*\d{4}$/) == nil)
+  if(input.match(/^.*\[A-Z]$/) == nil)
     return false
   else
     return true

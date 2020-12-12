@@ -3,7 +3,7 @@
 def speak_to_grandma(input)
   
   if(input.match(/^.*[A-Z]$/) == nil)
-    return "false"
+    return "HUH?! SPEAK UP, SONNY!"
   else
     return true
   end
